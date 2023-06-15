@@ -12,6 +12,7 @@ namespace SampleGitExample.Controllers
         public IActionResult Index()
         {
             string str = "Success";
+            string test = "MyTest";
             return Ok(str);
         }
     }
