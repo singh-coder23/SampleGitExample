@@ -11,7 +11,9 @@ namespace SampleGitExample.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return Ok("Success");
+            string str = "Success";
+            string test = "MyTest";
+            return Ok(str);
         }
     }
 }
